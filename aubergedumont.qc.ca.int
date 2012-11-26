@@ -1,6 +1,6 @@
 $TTL 0
 aubergedumont.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2008081334	;       serial
+							2008081335	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
