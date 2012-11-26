@@ -1,0 +1,20 @@
+$TTL 0
+2.168.192.in-addr.arpa.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2012040405	;       serial
+							2h	;       refresh
+							1h	;       retry
+							3h	;       expiry
+							1h	 ) ;       minimum
+2.168.192.in-addr.arpa.					IN	NS	dns1.mss.qc.ca.	
+2.168.192.in-addr.arpa.					IN	NS	dns2.mss.qc.ca.	
+2.168.192.in-addr.arpa.					IN	NS	dns3.mss.qc.ca.	
+9.2.168.192.in-addr.arpa.					IN	PTR	ftp.mss.qc.ca.	
+10.2.168.192.in-addr.arpa.					IN	PTR	enseignants.mss.qc.ca.	
+4.2.168.192.in-addr.arpa.					IN	PTR	collaba.mss.qc.ca.	
+5.2.168.192.in-addr.arpa.					IN	PTR	notes.mss.qc.ca.	
+13.2.168.192.in-addr.arpa.					IN	PTR	biblionet.mss.qc.cam.	
+6.2.168.192.in-addr.arpa.					IN	PTR	surveillance.mss.qc.ca.	
+3.2.168.192.in-addr.arpa.					IN	PTR	sonic.mss.qc.ca.	
+231.2.168.192.in-addr.arpa.					IN	PTR	lexmark.mss.qc.ca.	
+16.2.168.192.in-addr.arpa.					IN	PTR	auditorium.mss.qc.ca.	
+7.2.168.192.in-addr.arpa.					IN	PTR	radius.mss.qc.ca.

@@ -1,0 +1,39 @@
+$TTL 0
+aubergedumont.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2012092638	;             serial
+							2h	;             refresh
+							1h	;             retry
+							3h	;             expiry
+							1h	 ) ;             minimum
+
+aubergedumont.qc.ca.					IN	NS	dns1.mss.qc.ca.	
+aubergedumont.qc.ca.					IN	NS	dns2.mss.qc.ca.	
+aubergedumont.qc.ca.					IN	NS	dns3.mss.qc.ca.	
+aubergedumont.qc.ca.					IN	A	206.41.88.117	
+dns1									IN	A	206.41.88.115	
+dns2									IN	A	206.41.88.118	
+dns3									IN	A	206.41.88.120	
+ftp										IN	A	206.41.88.116	
+enseignants								IN	A	206.41.88.117	
+sonic									IN	A	206.41.88.119	
+www						IN	CNAME	enseignants	
+ww						IN	CNAME	enseignants	
+w						IN	CNAME	enseignants	
+eleves					IN	CNAME	ftp	
+www.collaba				IN 	CNAME	dns1
+collaba					IN 	CNAME	dns1
+notes					IN	CNAME	dns2
+carnet					IN	CNAME	dns2	
+symphonie				IN	CNAME	dns2	
+portail_scolaire		IN 	CNAME	dns2
+mdl						IN 	CNAME	dns2
+bibliotheque			IN	CNAME	dns3	
+biblionet				IN	CNAME	dns3
+fmpro					IN	CNAME	sonic
+sondage					IN 	CNAME 	enseignants
+aubergedumont.qc.ca.                     IN MX 10 ASPMX.L.GOOGLE.COM.
+aubergedumont.qc.ca.                     IN MX 20 ALT1.ASPMX.L.GOOGLE.COM.
+aubergedumont.qc.ca.                     IN MX 20 ALT2.ASPMX.L.GOOGLE.COM.
+aubergedumont.qc.ca.                     IN MX 30 ASPMX2.GOOGLEMAIL.COM.
+aubergedumont.qc.ca.                     IN MX 30 ASPMX3.GOOGLEMAIL.COM.
+

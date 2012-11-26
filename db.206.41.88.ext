@@ -1,0 +1,16 @@
+$TTL 0
+88.41.206.in-addr.arpa.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2010112005	;              serial
+							2h	;              refresh
+							1h	;              retry
+							3h	;              expiry
+							1h	 ) ;              minimum
+88.41.206.in-addr.arpa.					IN	NS	dns1.mss.qc.ca.	
+88.41.206.in-addr.arpa.					IN	NS	dns2.mss.qc.ca.	
+88.41.206.in-addr.arpa.					IN	NS	dns3.mss.qc.ca.	
+117.88.41.206.in-addr.arpa.					IN	PTR	enseignants.mss.qc.ca.	
+115.88.41.206.in-addr.arpa.					IN	PTR	collaba.mss.qc.ca.	
+118.88.41.206.in-addr.arpa.					IN	PTR	biblionet.mss.qc.ca.	
+119.88.41.206.in-addr.arpa.					IN	PTR	sonic.mss.qc.ca.	
+116.88.41.206.in-addr.arpa.					IN	PTR	ftp.mss.qc.ca.	
+120.88.41.206.in-addr.arpa.					IN	PTR	carnet.mss.qc.ca.	

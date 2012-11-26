@@ -1,0 +1,32 @@
+$TTL 0
+laubergedumont.com.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2010112004	;                                 serial
+							2h	;                                 refresh
+							1h	;                                 retry
+							3h	;                                 expiry
+							1h	 ) ;                              minimum
+laubergedumont.com.					IN	NS	dns1.mss.qc.ca.	
+laubergedumont.com.					IN	NS	dns2.mss.qc.ca.	
+laubergedumont.com.					IN	NS	dns3.mss.qc.ca.	
+dns1						IN	A	206.41.88.115	
+dns2						IN	A	206.41.88.118	
+dns3						IN	A	206.41.88.120	
+laubergedumont.com.			IN	A	206.41.88.117	
+ftp							IN	A	206.41.88.116	
+enseignants					IN	A	206.41.88.117	
+sonic						IN	A	206.41.88.119	
+www						IN	CNAME	enseignants	
+ww						IN	CNAME	enseignants	
+w						IN	CNAME	enseignants	
+eleves					IN	CNAME	ftp	
+www.collaba				IN 	CNAME	dns1
+collaba					IN 	CNAME	dns1
+notes					IN	CNAME	dns3
+carnet					IN	CNAME	dns3	
+symphonie				IN	CNAME	dns3	
+portail_scolaire		IN 	CNAME	dns3
+mdl						IN 	CNAME	dns3
+bibliotheque			IN	CNAME	dns2	
+biblionet				IN	CNAME	dns2
+fmpro					IN	CNAME	sonic
+sondage					IN 	CNAME 	enseignants

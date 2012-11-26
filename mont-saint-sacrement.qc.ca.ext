@@ -1,0 +1,32 @@
+$TTL 0
+mont-saint-sacrement.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2010112313	;                                 serial
+							2h	;                                 refresh
+							1h	;                                 retry
+							3h	;                                 expiry
+							1h	 ) ;                                 minimum
+mont-saint-sacrement.qc.ca.					IN	NS	dns1.mss.qc.ca.	
+mont-saint-sacrement.qc.ca.					IN	NS	dns2.mss.qc.ca.	
+mont-saint-sacrement.qc.ca.					IN	NS	dns3.mss.qc.ca.	
+mont-saint-sacrement.qc.ca.					IN	A	206.41.88.117
+dns1						IN	A	206.41.88.115	
+dns2						IN	A	206.41.88.118	
+dns3						IN	A	206.41.88.120	
+ftp							IN	A	206.41.88.116	
+enseignants					IN	A	206.41.88.117	
+sonic						IN	A	206.41.88.119	
+www.collaba				IN	CNAME	dns1
+collaba					IN 	CNAME 	dns1
+www.collaba				IN	CNAME	dns1	
+biblionet				IN 	CNAME	dns2
+portail_scolaire		IN 	CNAME 	dns3
+mdl						IN 	CNAME 	dns3
+notes					IN 	CNAME	dns3
+carnet					IN 	CNAME	dns3
+symphonie				IN 	CNAME 	dns3
+eleves					IN	CNAME	ftp	
+www						IN	CNAME	enseignants	
+ww						IN	CNAME	enseignants	
+w						IN	CNAME	enseignants	
+sondage					IN 	CNAME 	enseignants
+corriges_chimie			IN 	CNAME 	enseignants
