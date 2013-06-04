@@ -1,0 +1,18 @@
+$TTL 0
+esmss.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2013060401	;       serial
+							2h	;       refresh
+							1h	;       retry
+							3h	;       expiry
+							1h	 ) ;       minimum
+
+anciens-mss.ca.					IN	NS	dns1.mss.qc.ca.	
+anciens-mss.ca.					IN	NS	dns2.mss.qc.ca.	
+anciens-mss.ca.					IN	NS	dns3.mss.qc.ca.	
+anciens-mss.ca.					IN	A	192.168.2.10	
+www								IN	A	192.168.2.10	
+anciens-mss.ca.                               IN MX 1 ASPMX.L.GOOGLE.COM.
+anciens-mss.ca.                               IN MX 5 ALT1.ASPMX.L.GOOGLE.COM.
+anciens-mss.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
+anciens-mss.ca.                               IN MX 10 ALT2.ASPMX2.GOOGLEMAIL.COM.
+anciens-mss.ca.                               IN MX 10 ALT2.ASPMX3.GOOGLEMAIL.COM.
