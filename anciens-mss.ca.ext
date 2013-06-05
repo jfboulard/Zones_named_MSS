@@ -1,6 +1,6 @@
 $TTL 0
-esmss.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2013060401	;                                 serial
+anciens-mss.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2013060403	;                                 serial
 							2h	;                                 refresh
 							1h	;                                 retry
 							3h	;                                 expiry
@@ -10,6 +10,7 @@ anciens-mss.ca.					IN	NS	dns2.mss.qc.ca.
 anciens-mss.ca.					IN	NS	dns3.mss.qc.ca.	
 anciens-mss.ca.					IN	A	206.41.88.117
 www								IN	A	206.41.88.117
+JQEPXIWY4TZP					IN CNAME	gv-V7NBCYUY2YMBOW.dv.googlehosted.com.
 anciens-mss.ca.                               IN MX 1 ASPMX.L.GOOGLE.COM.
 anciens-mss.ca.                               IN MX 5 ALT1.ASPMX.L.GOOGLE.COM.
 anciens-mss.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.

@@ -1,6 +1,6 @@
 $TTL 0
-esmss.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2013060401	;       serial
+anciens-mss.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2013060402	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry

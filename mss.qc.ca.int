@@ -1,6 +1,6 @@
 $TTL 0
 mss.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2012112285	;       serial
+							2013060586	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
@@ -38,6 +38,7 @@ notes					IN 	CNAME	dns3
 carnet					IN 	CNAME	dns3
 symphonie				IN 	CNAME 	dns3
 eleves					IN	CNAME	ftp	
+mdm						IN	CNAME	ftp	
 www						IN	CNAME	enseignants	
 ww						IN	CNAME	enseignants	
 w						IN	CNAME	enseignants	
