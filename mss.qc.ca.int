@@ -1,6 +1,6 @@
 $TTL 0
 mss.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2013060586	;       serial
+							2014081287	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
@@ -16,7 +16,8 @@ dns2						IN	A	192.168.2.13
 dns3						IN	A	192.168.2.5	
 surveillance				IN	A	192.168.2.6	
 ftp							IN	A	192.168.2.9	
-enseignants					IN	A	192.168.2.10	
+webserver					IN	A	192.168.2.10	
+enseignants					IN	A	192.168.2.88	
 fmpro                       IN  A   192.168.2.15
 1984						IN	A	192.168.2.16	
 cisco                       IN  A   192.168.2.19
@@ -39,15 +40,16 @@ carnet					IN 	CNAME	dns3
 symphonie				IN 	CNAME 	dns3
 eleves					IN	CNAME	ftp	
 mdm						IN	CNAME	ftp	
-www						IN	CNAME	enseignants	
-ww						IN	CNAME	enseignants	
-w						IN	CNAME	enseignants	
-sondage					IN 	CNAME 	enseignants
-corriges_chimie			IN 	CNAME 	enseignants
-omnifocus				IN 	CNAME 	enseignants
-logiciels				IN 	CNAME 	enseignants
-munki					IN 	CNAME 	enseignants
-numerisation_xerox		IN 	CNAME 	enseignants
+www						IN	CNAME	webserver	
+ww						IN	CNAME	webserver	
+w						IN	CNAME	webserver	
+sondage					IN 	CNAME 	webserver
+corriges_chimie			IN 	CNAME 	webserver
+omnifocus				IN 	CNAME 	webserver
+logiciels				IN 	CNAME 	webserver
+munki					IN 	CNAME 	webserver
+numerisation_xerox		IN 	CNAME 	webserver
+mysql1					IN 	CNAME 	webserver
 mss.qc.ca.                               IN MX 1 ASPMX.L.GOOGLE.COM.
 mss.qc.ca.                               IN MX 5 ALT1.ASPMX.L.GOOGLE.COM.
 mss.qc.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
