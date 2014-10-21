@@ -1,6 +1,6 @@
 $TTL 0
 mss.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2014081287	;       serial
+							2014090788	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
@@ -50,6 +50,8 @@ logiciels				IN 	CNAME 	webserver
 munki					IN 	CNAME 	webserver
 numerisation_xerox		IN 	CNAME 	webserver
 mysql1					IN 	CNAME 	webserver
+jedenonce				IN 	CNAME 	webserver
+denonciation			IN 	CNAME 	webserver
 mss.qc.ca.                               IN MX 1 ASPMX.L.GOOGLE.COM.
 mss.qc.ca.                               IN MX 5 ALT1.ASPMX.L.GOOGLE.COM.
 mss.qc.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
