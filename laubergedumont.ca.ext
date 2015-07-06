@@ -1,6 +1,6 @@
 $TTL 0
 laubergedumont.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2012032205	;                                 serial
+							2012032206	;                                 serial
 							2h	;                                 refresh
 							1h	;                                 retry
 							3h	;                                 expiry
@@ -30,4 +30,3 @@ bibliotheque			IN	CNAME	dns3
 biblionet				IN	CNAME	dns3
 fmpro					IN	CNAME	sonic
 sondage					IN 	CNAME 	enseignants
-laubergedumont.ca.			            IN MX 10 collaba.mss.qc.ca.

@@ -1,6 +1,6 @@
 $TTL 0
 aubergedumont.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2008081335	;       serial
+							2008081337	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
@@ -12,7 +12,7 @@ aubergedumont.qc.ca.					IN	A	192.168.2.10
 dns1						IN	A	192.168.2.4	
 dns3						IN	A	192.168.2.5	
 dns2						IN	A	192.168.2.13	
-laubergedumont.ca.			IN	A	192.168.2.10	
+aubergedumont.qc.ca.			IN	A	192.168.2.10	
 sonic						IN	A	192.168.2.3	
 surveillance				IN	A	192.168.2.6	
 impressions					IN	A	192.168.2.7	
@@ -37,8 +37,8 @@ mdl						IN 	CNAME	dns2
 bibliotheque			IN	CNAME	dns3	
 biblionet				IN	CNAME	dns3
 sondage					IN 	CNAME 	enseignants
-aubergedumont.qc.ca.                                      IN MX 10 dummy0.junkemailfilter.com.
-aubergedumont.qc.ca.                                      IN MX 20 mx.junkemailfilter.com.
-aubergedumont.qc.ca.                                      IN MX 30 mx.junkemailfilter.net.
-aubergedumont.qc.ca.                                      IN MX 40 mx.junkemailfilter.org.
-aubergedumont.qc.ca.                                      IN MX 50 dummy1.junkemailfilter.com.
+aubergedumont.qc.ca.                               IN MX 1 ASPMX.L.GOOGLE.COM.
+aubergedumont.qc.ca.                               IN MX 5 ALT1.ASPMX.L.GOOGLE.COM.
+aubergedumont.qc.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
+aubergedumont.qc.ca.                               IN MX 10 ALT2.ASPMX2.GOOGLEMAIL.COM.
+aubergedumont.qc.ca.                               IN MX 10 ALT2.ASPMX3.GOOGLEMAIL.COM.
