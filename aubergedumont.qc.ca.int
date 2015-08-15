@@ -1,6 +1,6 @@
 $TTL 0
 aubergedumont.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2008081337	;       serial
+							2015081538	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
@@ -42,3 +42,4 @@ aubergedumont.qc.ca.                               IN MX 5 ALT1.ASPMX.L.GOOGLE.C
 aubergedumont.qc.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
 aubergedumont.qc.ca.                               IN MX 10 ALT2.ASPMX2.GOOGLEMAIL.COM.
 aubergedumont.qc.ca.                               IN MX 10 ALT2.ASPMX3.GOOGLEMAIL.COM.
+aubergedumont.qc.ca.	IN	TXT 	"v=spf1 include:_spf.google.com ~all"

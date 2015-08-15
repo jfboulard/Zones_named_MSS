@@ -1,6 +1,6 @@
 $TTL 0
 mss.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2015090700	;                                 serial
+							2015081500	;                                 serial
 							1h	;                                 refresh
 							1h	;                                 retry
 							1h	;                                 expiry
@@ -48,3 +48,4 @@ numerisation_xerox		IN 	CNAME 	webserver
 mysql1					IN 	CNAME 	webserver
 jedenonce				IN 	CNAME 	webserver
 denonciation			IN 	CNAME 	webserver
+mss.qc.ca.				IN	TXT 	"v=spf1 include:_spf.google.com ~all"
