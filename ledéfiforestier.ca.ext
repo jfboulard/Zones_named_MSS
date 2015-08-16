@@ -1,0 +1,17 @@
+$TTL 0
+ledéfiforestier.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
+							2014031801	;                                 serial
+							1h	;                                 refresh
+							1h	;                                 retry
+							1h	;                                 expiry
+							1h	 ) ;                              minimum
+ledéfiforestier.ca.					IN	NS	dns1.mss.qc.ca.	
+ledéfiforestier.ca.					IN	NS	dns2.mss.qc.ca.	
+ledéfiforestier.ca.					IN	NS	dns3.mss.qc.ca.	
+ledéfiforestier.ca.					IN	A	206.41.88.117	
+dns1						IN	A	206.41.88.115	
+dns2						IN	A	206.41.88.118	
+dns3						IN	A	206.41.88.120	
+www							IN	A	206.41.88.117	
+ww							IN	CNAME	www	
+w							IN	CNAME	www	
