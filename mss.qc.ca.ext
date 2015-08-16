@@ -1,6 +1,6 @@
 $TTL 0
 mss.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2015081500	;                                 serial
+							2015081501	;                                 serial
 							1h	;                                 refresh
 							1h	;                                 retry
 							1h	;                                 expiry
@@ -49,3 +49,4 @@ mysql1					IN 	CNAME 	webserver
 jedenonce				IN 	CNAME 	webserver
 denonciation			IN 	CNAME 	webserver
 mss.qc.ca.				IN	TXT 	"v=spf1 include:_spf.google.com ~all"
+google._domainkey				IN	TXT		"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCryH/7Seo5PSAVBm43dEsx/y68W7HmodBKM6gL/u5HB9fPUpyYcD7up4qo+n6BxAV/HJCWR/WYrQEMAahzt3x17X0LJdhbBm3wDA5YHqN8R9iH31KArw0W40PsxfPHbEM4YVv7I/E5DamHTOxdVmQREAS7aMsxPWn8yI9q9l+ziwIDAQAB"

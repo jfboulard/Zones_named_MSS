@@ -1,6 +1,6 @@
 $TTL 0
 anciens-mss.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2015081504	;       serial
+							2015081505	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
@@ -17,4 +17,4 @@ anciens-mss.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
 anciens-mss.ca.                               IN MX 10 ALT2.ASPMX2.GOOGLEMAIL.COM.
 anciens-mss.ca.                               IN MX 10 ALT2.ASPMX3.GOOGLEMAIL.COM.
 anciens-mss.ca.					IN	TXT		"v=spf1 include:_spf.google.com ~all"
-
+google._domainkey				IN	TXT		"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1n5YznJubqhQT5RvYF9VE15rXOP+nlIcPjIgRsi0Xc0I0gaLud8pMSNCBYNL1j8b2hDrJ0YB7Dz5bm21pdFXkmpM9j0tYFV/cHVWnBALSiNZQrMygJH/fU6sa3i0MNbSuRT5rklU/dUOgU0ho5jXqz2SV+dgFx9yvXWmadCsPPwIDAQAB"

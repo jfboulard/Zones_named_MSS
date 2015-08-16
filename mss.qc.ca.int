@@ -1,6 +1,6 @@
 $TTL 0
 mss.qc.ca.					IN	SOA	dns1.mss.qc.ca.	admin.mss.qc.ca.	( 
-							2015081589	;       serial
+							2015081590	;       serial
 							2h	;       refresh
 							1h	;       retry
 							3h	;       expiry
@@ -58,3 +58,4 @@ mss.qc.ca.                               IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
 mss.qc.ca.                               IN MX 10 ALT2.ASPMX2.GOOGLEMAIL.COM.
 mss.qc.ca.                               IN MX 10 ALT2.ASPMX3.GOOGLEMAIL.COM.
 mss.qc.ca.				IN	TXT 	"v=spf1 include:_spf.google.com ~all"
+google._domainkey				IN	TXT		"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCryH/7Seo5PSAVBm43dEsx/y68W7HmodBKM6gL/u5HB9fPUpyYcD7up4qo+n6BxAV/HJCWR/WYrQEMAahzt3x17X0LJdhbBm3wDA5YHqN8R9iH31KArw0W40PsxfPHbEM4YVv7I/E5DamHTOxdVmQREAS7aMsxPWn8yI9q9l+ziwIDAQAB"
